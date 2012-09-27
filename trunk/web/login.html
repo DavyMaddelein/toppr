@@ -1,0 +1,67 @@
+<HTML>
+<HEAD><TITLE>DB login</TITLE>
+    <link rel="stylesheet" type="text/css" href="pprStyle.css">
+    <script language="JavaScript" type="text/javascript">
+<!--
+function SetImage(id, filename)
+{
+   var elem=document.getElementById(id);
+   if(elem)
+   {
+      elem.src=filename;
+   }
+}
+//-->
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-9963568-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</HEAD>
+<BODY>
+<center>
+<div class="head" id="head" align="center" width="800">
+<span id="vib">
+<a href="http://www.vib.be" target="_blank"><img src="images/vib.jpg" border="0" ></a></span>
+<span><img src="images/ppr.jpg" border="0"></span>
+<span id="ugent">
+<a href="http://www.ugent.be" target="_blank"><img src="images/ugent.jpg" border="0"></a></span>
+<div class="menu" align="center">
+			<ul>
+				<li><a class="first" href="home.html">Home</a></li>
+				<li><a class="middle" href="manual.pdf">Manual</a></li>
+				<li><a class="middle" href="SearchFill">Search</a></li>
+				<li><a class="middle" href="searchInfo.jsp">Search log</a></li>
+                <li><a class = muddle href ="statistics.jsp">site statistics</a></li>
+				<li><a class="lastS" href="login.html">Log in</a></li>
+			</ul>
+</div>
+</div>
+    <div class="startBox300">&nbsp</div>
+    <div class="midRBox300">
+    <div class="midLBox300">
+            <form id="login" name="login" method="post" action="LogIn">
+                <div align="center">
+                    Name: <input type="text" name="name"> <br>
+                    Password: <input type="password" name="password"><br>
+                    <label>
+                        <input type="submit" name="Login" id="inlog" value="Log in"/>
+                    </label>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="endBox300">&nbsp</div>
+</center>
+
+</BODY>
+</HTML>

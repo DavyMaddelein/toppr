@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact build-on-make="true" name="toppr">
+    <output-path>C:/Tomcat 6.0/webapps/toppr</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="compomics-toppr" />
+        </element>
+        <element id="file-copy" path="C:\niklaas\java\compomics-oppr\web\WEB-INF\web.xml" output-file-name="web.xml" />
+      </element>
+      <element id="javaee-facet-resources" facet="compomics-toppr/web/toppr" />
+    </root>
+  </artifact>
+</component>

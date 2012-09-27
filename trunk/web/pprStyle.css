@@ -1,0 +1,643 @@
+
+div.startBox {
+    background: url(images/trBox.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width:expression( document.body.clientWidth > (1/12) * parseInt(document.body.currentStyle.fontSize)? "1024px": "auto" );
+    max-width: 1024px;
+    min-width: 900px;
+    margin-left: auto; margin-right: auto; }
+div.endBox {
+    background: url(images/brBox.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width:expression( document.body.clientWidth > (1/12) * parseInt(document.body.currentStyle.fontSize)? "1024px": "auto" );
+    max-width: 1024px;
+    min-width: 900px;
+    margin-left: auto; margin-right: auto; }
+div.midRBox {
+    background: url(images/rBox.jpg)  right repeat-y;
+    width:expression( document.body.clientWidth > (1000/12) * parseInt(document.body.currentStyle.fontSize)? "1024px": "auto" );
+    max-width: 1024px;
+    min-width: 900px;
+    margin-left: auto; margin-right: auto; }
+div.midLBox {
+    background: url(images/lBox.jpg)  left repeat-y; padding: 0.1cm 0.5cm}
+div.lineBox {
+    background: url(images/mrBox.jpg)  right repeat-y;
+    width:expression( document.body.clientWidth > (1/12) * parseInt(document.body.currentStyle.fontSize)? "1024px": "auto" );
+    background-repeat:no-repeat;
+    max-width: 1024px;
+    min-width: 900px;
+    margin-left: auto; margin-right: auto;
+}
+
+
+div.startBox1024 {
+    background: url(images/tBox1024.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width:1024px;
+    margin-left: auto; margin-right: auto;
+    }
+div.endBox1024 {
+    background: url(images/bBox1024.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width: 1024px;
+    margin-left: auto; margin-right: auto; }
+div.midRBox1024 {
+    background: url(images/rBox.jpg)  right repeat-y;
+    width:expression( document.body.clientWidth > (1000/12) * parseInt(document.body.currentStyle.fontSize)? "1024px": "auto" );
+    width: 1024px;
+    margin-left: auto; margin-right: auto; }
+div.midLBox1024 {
+    background: url(images/lBox.jpg)  left repeat-y; padding: 0.1cm 0.5cm}
+div.lineBox1024 {
+    background: url(images/mBox1024.jpg)  right repeat-y;
+    background-repeat:no-repeat;
+    width: 1024px;
+    margin-left: auto; margin-right: auto;
+}
+
+div.startBox1024Red {
+    background: url(images/tBox1024Red.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width:1024px;
+    margin-left: auto; margin-right: auto;
+    }
+div.endBox1024Red {
+    background: url(images/bBox1024Red.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width: 1024px;
+    margin-left: auto; margin-right: auto; }
+div.midRBox1024Red {
+    background: url(images/rBoxRed.jpg)  right repeat-y;
+    width:expression( document.body.clientWidth > (1000/12) * parseInt(document.body.currentStyle.fontSize)? "1024px": "auto" );
+    width: 1024px;
+    margin-left: auto; margin-right: auto; }
+div.midLBox1024Red {
+    background: url(images/lBoxRed.jpg)  left repeat-y; padding: 0.1cm 0.5cm}
+div.lineBox1024Red {
+    background: url(images/mBox1024Red.jpg)  right repeat-y;
+    background-repeat:no-repeat;
+    width: 1024px;
+    margin-left: auto; margin-right: auto;
+}
+
+div.startBox800 {
+    background: url(images/tBox800.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width:800px;
+    margin-left: auto; margin-right: auto; }
+div.endBox800 {
+    background: url(images/bBox800.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width: 800px;
+    margin-left: auto; margin-right: auto; }
+div.midRBox800 {
+    background: url(images/rBox800.jpg)  right repeat-y;
+    width: 800px;
+    margin-left: auto; margin-right: auto; }
+div.midLBox800 {
+    background: url(images/lBox.jpg)  left repeat-y; padding: 0.1cm 0.5cm}
+div.lineBox800 {
+    background: url(images/mBox800.jpg)  right repeat-y;
+    background-repeat:no-repeat;
+    width: 800px;
+    margin-left: auto; margin-right: auto;
+}
+
+
+div.startBox800Gr {
+    background: url(images/tBox800Gr.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width:800px;
+    margin-left: auto; margin-right: auto; }
+div.endBox800Gr {
+    background: url(images/bBox800Gr.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width: 800px;
+    margin-left: auto; margin-right: auto; }
+div.midRBox800Gr {
+    background: url(images/rBox800Gr.jpg)  right repeat-y;
+    width: 800px;
+    margin-left: auto; margin-right: auto; }
+div.midLBox800Gr {
+    background: url(images/lBoxGr.jpg)  left repeat-y; padding: 0.1cm 0.5cm}
+div.lineBox800Gr {
+    background: url(images/mBox800Gr.jpg)  right repeat-y;
+    background-repeat:no-repeat;
+    width: 800px;
+    margin-left: auto; margin-right: auto;
+}
+
+
+div.startBox300 {
+    background: url(images/tBox300.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width:300px;
+    margin-left: auto; margin-right: auto; }
+div.endBox300 {
+    background: url(images/bBox300.jpg) right repeat-y;
+    background-repeat:no-repeat;
+    width: 300px;
+    margin-left: auto; margin-right: auto; }
+div.midRBox300 {
+    background: url(images/rBox300.jpg)  right repeat-y;
+    width: 300px;
+    margin-left: auto; margin-right: auto; }
+div.midLBox300 {
+    background: url(images/lBox.jpg)  left repeat-y; padding: 0.1cm 0.5cm}
+div.lineBox300 {
+    background: url(images/mBox300.jpg)  right repeat-y;
+    background-repeat:no-repeat;
+    width: 300px;
+    margin-left: auto; margin-right: auto;
+}
+
+
+A:link.peptideLink  {text-decoration: none; color: black;}
+A:visited.peptideLink {text-decoration: none; color: black;}
+A:active.peptideLink {text-decoration: none; color: black;}
+A:hover.peptideLink {text-decoration: underline; color: black;}
+
+.uneven {
+    background-color:#F5F5F5;
+}
+.even {
+    background-color:#FFFFFF;
+}
+select.searchSelector {
+    vertical-align: middle;
+    width: 300px;
+}
+
+
+div.head {
+    width: 850px;
+    text-align: center;
+}
+
+span.example{
+    color:#736F6E;
+}
+
+span.title{
+    font-size: 2.5em}
+span.treatment{
+    font-size: 2.5em}
+div.title{
+    text-align: center;
+    font-size: 1.5em}
+div.smalltitle{
+    font-size: 1.3em;}
+div.small2title{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+div.pictureInfo{
+    text-align: center;
+    font-style: italic;
+    font-size: 0.9em;
+    }
+span.underline{
+    text-decoration:underline;
+}
+span.subtitle{
+    font-size: 2em;}
+div.container{
+    margin: 0 auto;   
+    width: 1024px;}
+span.line{
+    text-decoration:underline;
+    color:blue;
+    cursor: pointer;
+}
+div.line{
+    text-decoration:underline; color:blue; cursor: pointer;
+}
+
+body
+{
+text-align: center
+}
+
+#content
+{
+text-align: left;
+width: 1024px;
+margin: 0 auto
+}
+
+#contentSmall
+{
+text-align: left;
+width: 900px;
+margin: 0 auto
+}
+
+#content800
+{
+    background-color:#31A208;
+text-align: left;
+width: 830px;
+margin: 0 auto
+}
+/** Bar , inspired by uniprot beta **/
+
+#bar
+{
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #EEEEEE;
+	width: 100%;
+	color: white;
+	background-color: #85C329;
+	line-height: 1.5;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	z-index: 1
+}
+
+#barIE{
+    position: absolute; right: 0px; bottom: 0px;
+    right: auto; bottom: auto;
+    left: expression( ( 0 - bar.offsetWidth + ( document.documentElement.clientWidth ? document.documentElement.clientWidth : document.body.clientWidth ) + ( ignoreMe2 = document.documentElement.scrollLeft ? document.documentElement.scrollLeft : document.body.scrollLeft ) ) + 'px' );
+    top: expression( ( 0 - bar.offsetHeight + ( document.documentElement.clientHeight ? document.documentElement.clientHeight : document.body.clientHeight ) + ( ignoreMe = document.documentElement.scrollTop ? document.documentElement.scrollTop : document.body.scrollTop ) ) + 'px' );
+    border-top: 1px solid #EEEEEE;
+	width: 100%;
+	color: white;
+	background-color: #85C329;
+	line-height: 1.5;
+	filter: alpha(opacity=90);
+	opacity: 0.9;
+	-moz-opacity: 0.9;
+	z-index: 1;
+	display:block;
+}
+#bar a:link, #cart a:visited
+{
+	color: white;
+	text-decoration: underline;
+}
+#bar-contentsIE
+{
+	float: left;
+	margin: 1;
+	padding: 0.25em 2.5em;
+}
+#bar-contents
+{
+	float: left;
+	margin: 1;
+	padding: 0.25em 2.5em;
+}
+
+
+#bar-count
+{
+	font-weight: bold;
+}
+
+/* --- Nav styles below --- */
+
+.menu {
+	font-family: "Trebuchet MS", Arial, san-serif;
+    text-align:center;
+    width:500px;
+	height:50px;
+	font-size:11px;
+    margin-left: auto; margin-right: auto;
+}
+.menu ul li a {
+	display:block;
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	width:88px;
+	height:50px;
+	text-align:center;
+	border-bottom: 0;
+	background-image:url(images/m.gif);
+	line-height:42px;
+	font-size:11px;
+	overflow:hidden;
+	padding-left: 1px;
+}
+/* first and last tabs */
+.menu .last {
+	background-image:url(images/r.gif);
+}
+.menu .lastS {
+	background-image:url(images/rC.gif);
+}
+.menu .first {
+	background-image:url(images/l.gif);
+	padding-left: 1px;
+	margin-right: -10px;
+}
+.menu .firstS {
+	background-image:url(images/lC.gif);
+	padding-left: 1px;
+	margin-right: -10px;
+}
+.menu .middleS {
+	background-image:url(images/mC.gif);
+	padding-left: 1px;
+	margin-right: -1px;
+}
+.menu ul {
+    text-align: center;
+    margin:0;
+    list-style: none;
+}
+.menu ul li {float:left; position:relative;}
+.menu ul li ul {display: none;}
+
+/* button hover properties */
+.menu ul li:hover a {color:#043454; background: url(images/mO.gif);}
+.menu ul li:hover ul {display:block; position:absolute; top:42px; left:0; width:152px; margin: 0; padding: 0;}
+.menu ul li:hover ul li a.middle {background:#6a3; color:#fff;}
+.menu ul li:hover ul li:hover a.middle {background:#6fc; color:#544a3a;}
+.menu ul li:hover ul li ul {display: none;}
+
+.menu ul li:hover .first {color:#043454; background: url(images/lO.gif);}
+.menu ul li:hover .firstS {color:#043454; background: url(images/lO.gif);}
+.menu ul li:hover .last {color:#043454; background: url(images/rO.gif);}
+.menu ul li:hover .lastS {color:#043454; background: url(images/rO.gif);}
+
+/* dropdown properties */
+.menu ul li:hover ul li a {background-image: url(images/bg.gif); display:block;height: 40px; line-height: 33px; color:#043454; width:110px; text-align:center; margin: 0; padding:0 0 0 11px;font-weight:normal;}
+.menu ul li:hover ul {
+	margin: 0 0 0 2px;
+	padding: 6px;
+}
+
+/* dropdown selected properties */
+.menu ul li:hover ul li a:hover {color:#fff; background-image: url(images/bgO.gif);}
+
+.menu ul li:hover ul li:hover ul {display:block; position:absolute; left:105px; top:0;}
+.menu ul li:hover ul li:hover ul.left {left:-105px;}
+
+
+
+/* apple inspired slider*/
+
+.drawer IMG { margin: 5px; }
+
+.drawer h2 {
+    margin: 0;
+}
+
+.drawers-wrapper {
+    position: relative;
+    width: 400px;
+
+}
+
+.drawer {
+    color:#76797C;
+    font-size: 1.4em;
+    line-height:1.3em;
+}
+
+.boxcap {
+    height:5px;
+    left:0pt;
+    position:absolute;
+    width:100%;
+    z-index:100;
+    margin-top:-5px;
+}
+
+.captop {
+    bottom:auto;
+    top:0pt;
+    margin-top:0;
+}
+
+.drawers {
+    margin-bottom:15px;
+    color:#76797C;
+    font-size:11px;
+    line-height: 18px;
+}
+
+.drawers A {
+    color:#666666;
+    text-decoration:none;
+    font-family:"Lucida Grande",Geneva,Arial,Verdana,sans-serif;
+    font-size-adjust:none;
+    font-style:normal;
+    font-variant:normal;
+    font-weight:normal;
+}
+
+.drawer li {
+    list-style: none;
+    margin: 0;
+    line-height:16px;
+    padding:2px 0pt;
+    display:block;
+    overflow:hidden;
+}
+
+
+UL.drawers {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.drawer-handle {
+    background:#939393 url(images/slider.png) no-repeat scroll 0pt;
+    color:#333333;
+    cursor:default;
+    font-size:12px;
+    font-weight:normal;
+    height:25px;
+    line-height:25px;
+    margin-bottom:0pt;
+    text-indent:15px;
+    width:100%;
+}
+
+.drawer-handle.open {
+    background-color:#FFFFFF;
+    background-position:-400px 0pt;
+    color:#000000 ;
+}
+
+.drawer UL {
+    padding: 0 12px;
+    padding-bottom:0pt;
+}
+
+.drawer-content UL {
+    padding-top: 7px;
+}
+
+
+div.alpha{
+    display:inline;
+    background-image:url(images/alpha.png);
+    padding-bottom: 10px;
+}
+
+
+div.beta{
+    display:inline;
+    background-image:url(images/beta.png);
+    padding-bottom: 10px;
+}
+
+div.coil{
+    display:inline;
+    background-image:url(images/coil.png);
+    padding-bottom: 10px;
+}
+
+
+
+div.turn{
+    display:inline;
+    background-image:url(images/turn.png);
+    padding-bottom: 10px;
+}
+
+div.sequence {
+    font-size: 1.4em;
+}
+
+
+* { margin: 0; padding: 0 }
+		.drawers-wrapper p { text-align: left; margin: 15px 0 }
+
+		.drawers-wrapper p, ul { font-size: 13px; line-height: 1.4em }
+
+		.drawers-wrapper p a, li a { color: #39c; text-decoration: none }
+
+		.drawers-wrapper p.intro { border-bottom: 1px solid #ccc; margin-bottom: 20px; padding: 20px 0 30px 0; text-align: center; width: 100% }
+
+		.drawers-wrapper p#cross-links { text-align: center }
+
+		.drawers-wrapper p#cross-links { border-bottom: 1px solid #ccc; margin-bottom: 30px; padding-bottom: 30px }
+
+		.drawers-wrapper noscript p, noscript ol { color: #a00; font-size: 13px; line-height: 1.4em; text-align: left }
+		.drawers-wrapper noscript a { color: #a00; text-decoration: underline }
+		.drawers-wrapper noscript ol { margin-left: 25px; }
+
+		.drawers-wrapper a:focus { outline:none }
+
+		.drawers-wrapper img { border: 0 }
+
+		.drawers-wrapper h3 { border-bottom: 1px solid silver; margin-bottom: 5px; padding-bottom: 3px; text-align: left }
+
+
+		.stripViewer .panelContainer .panel ul {
+			text-align: left;
+			margin: 0 15px 0 30px;
+		}
+
+		.slider-wrap { /* This div isn't entirely necessary but good for getting the side arrows vertically centered */
+			margin: 20px 0;
+			position: relative;
+			width: 900px;
+            height: 730px;
+		}
+
+		/* These 2 lines specify style applied while slider is loading */
+		.csw {width: 300px; background: #fff; overflow: scroll}
+		.csw .loading {margin: 200px 0 300px 0; text-align: center}
+
+		.stripViewer { /* This is the viewing window */
+			position: relative;
+			overflow: hidden;
+			border: 1px solid #C2C2C2; /* this is the border. should have the same value for the links */
+			margin: auto;
+			width: 900px; /* Also specified in  .stripViewer .panelContainer .panel  below */
+            height: 715px;
+			clear: both;
+			background: #fff;
+		}
+
+		.stripViewer .panelContainer { /* This is the big long container used to house your end-to-end divs. Width is calculated and specified by the JS  */
+			position: relative;
+			left: 0; top: 0;
+			width: 100%;
+			list-style-type: none;
+			/* -moz-user-select: none; // This breaks CSS validation but stops accidental (and intentional - beware) panel highlighting in Firefox. Some people might find this useful, crazy fools. */
+		}
+
+		.stripViewer .panelContainer .panel { /* Each panel is arranged end-to-end */
+			float:left;
+			height: 100%;
+			position: relative;
+			width: 1004px; /* Also specified in  .stripViewer  above */
+		}
+
+		.stripViewer .panelContainer .panel .wrapper { /* Wrapper to give some padding in the panels, without messing with existing panel width */
+			padding: 10px;
+		}
+
+		.stripNav { /* This is the div to hold your nav (the UL generated at run time) */
+			margin: auto;
+		}
+
+		.stripNav ul { /* The auto-generated set of links */
+			list-style: none;
+		}
+
+		.stripNav ul li {
+			float: left;
+			margin-right: 2px; /* If you change this, be sure to adjust the initial value of navWidth in coda-slider.1.1.1.js */
+		}
+
+		.stripNav a { /* The nav links */
+			font-size: 12px;
+			font-weight: bold;
+			text-align: center;
+			line-height: 32px;
+			background: #FFFFFF;
+			color: #000000;
+			text-decoration: none;
+			display: block;
+			padding: 0 5px;
+		}
+
+		.stripNav li a:hover {
+			background: #C2C2C2;
+		}
+
+		.stripNav li a.current {
+			background: #66FF33;
+			color: #000000;
+		}
+
+		.stripNavL, .stripNavR { /* The left and right arrows */
+			position: absolute;
+			top: 50px;
+			text-indent: -9000em;
+		}
+
+		.stripNavL a, .stripNavR a {
+			display: block;
+			height: 0px;
+			width: 0px;
+		}
+
+		.stripNavL {
+			left: 0;
+		}
+
+		.stripNavR {
+			right: 0;
+		}
+
+		.stripNavL {
+
+		}
+
+		.stripNavR {
+			
+		}
