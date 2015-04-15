@@ -31,7 +31,7 @@ You might also find some of the following projects interesting: [Peptizer](http:
 
 ## Project Support
 
-The jTraML project is grateful for the support by:
+The TOPPR project is grateful for the support by:
 
 | Compomics | VIB | Ghent University|
 |:--:|:--:|:--:|
