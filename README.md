@@ -1,7 +1,7 @@
 # TOPPR
 
  * [Project Description](#project-description)
- * [Related Project](#related-projects)
+ * [Related Projects](#related-projects)
  * [Project Support](#project-support)
 
 ----
